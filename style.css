@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 1.4;
+    color: whitesmoke;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 40px;
+    color:#000;
+  }
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;   
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    color: blue;
+    z-index: 10;
+    height: 50px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.nav-list{
+    display: flex;
+    margin-right: 15px;
+  
+}
+
+@media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
+.nav-list a:hover{
+    background: aqua;  
+}
+.nav-list a {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    
+    
+}
+
+.welcome h1{
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.welcome  p{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    color: aqua;
+    margin: 0;
+    padding: 0;
+    }
+    
+.project-section{
+    text-align: center;
+    padding: 5rem 2rem 5rem 2rem;
+    }
+    
+.project-header-section{
+    max-width: 600px;
+    margin: 6rem auto 6rem auto;
+    border-bottom: 2px solid;
+}
+    
+    h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 6rem;
+    color: aqua;
+    
+    }
+    
+    .project-grid{
+        display:flex;
+        justify-content: center;
+        grid-column-gap: 10px;
+    }
+    .project-tile{
+        text-align: center;
+        align-items: center;
+        color: black;
+        font-size: 1.5rem;
+        padding: 2rem 1rem 2rem 1rem;
+        text-decoration: none;
+        font-family: arial;
+        cursor: pointer;
+        max-width: 400px;
+        max-height: 300px;
+        background-color: #3a3d40;
+        background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+        margin: 50px 50px 50px 50px;
+        color: aqua;
+    }
+    
+    img{
+        max-width: 300px;
+    }
+    
+    .profile{
+        display: flex;
+        justify-content: center;
+    }
+    .btn{
+        display: inline-block;
+        padding: 1rem 2rem 1rem 2rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .btn-show-more{
+        font-size: 1.5rem;
+        background-color: #3a3d40;
+        color: aqua;
+        text-decoration: none;
+    }
+    
